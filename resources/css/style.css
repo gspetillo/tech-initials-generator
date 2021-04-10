@@ -82,3 +82,8 @@ body {
 #linkedin {
     text-decoration: none;
 }
+
+button{
+    max-width: 100px;
+    min-width: 50px;
+}
