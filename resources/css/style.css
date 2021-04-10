@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(270deg, #b550a9, #2c397f);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 18s ease infinite;
+    -moz-animation: AnimationName 18s ease infinite;
+    -o-animation: AnimationName 18s ease infinite;
+    animation: AnimationName 18s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-o-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+#input {
+    font-size: 22px;
+}
+
+#only {
+    font-size: 12px;
+    margin-left: 10px;
+    color: grey;
+}
+
+#devby {
+    font-size: 16px;
+    color: grey;
+}
+
+#linkedin {
+    text-decoration: none;
+}

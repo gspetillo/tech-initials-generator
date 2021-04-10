@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Initials Generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./resources/css/style.css">
+</head>
+<body>
+    <div id="app">
+        <div class="mx-auto mt-5 " style="width: 800px;">
+            <div class="card card-4 ">
+                <div class="card-body mx-auto px-3 py-3">
+                    <div class="mx-auto my-4 text-center">
+                        <h1>{{ final }}</h1>
+                    </div>
+                    <form action="#">
+                        <div class="form-group">
+
+                            <input id="input" class="form-control " type="text" v-model="text" placeholder="Ex.: AWS"
+                            style="text-transform:uppercase" required />
+                            <label id="only" for="name" class="control-label">* Only letters of the Latin
+                                alphabet</label>
+                        </div>
+                        <div class="mb-4 row">
+                            <button class="btn btn-success col-sm mr-1" type="button" v-on:click="initials">🔠
+                                Initials</button>
+                            <button class="btn btn-danger col-sm" type="reset" v-on:click="removeText">🗑
+                                Erase</button>
+                        </div>
+                    </form>
+                    <div class="mx-auto my-4 text-center">
+                        <h4 id="devby">👨‍💻 Developed by: <a id="linkedin" href="http://linkedin.com/in/gabrielpetillo"
+                                target="_blank">Gabriel Petillo</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </form>
+    </div>
+    </div>
+    <!----->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!----->
+    <script text="text/javascript" src="./resources/js/initials-generator.js"/>
+
+</body>
+
+</html>
